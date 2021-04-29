@@ -43,7 +43,8 @@ def quote_command(update, context):
 
     chosen_quote = list_of_quotes[random.randint(0, len(list_of_quotes)-1)]
 
-    update.message.reply_text(f"%s\n\n/quote /AskRoboAI" % chosen_quote)
+    update.message.reply_text(chosen_quote)
+    # update.message.reply_text("%s\n\n/quote /AskRoboAI" % chosen_quote)
     # update.message.reply_text(f"{chosen_quote}\n\n/quote /AskRoboAI")
 
 def chat_command(update, context):
