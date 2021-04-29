@@ -9,7 +9,7 @@ print("Robo AI just started...")
 
 def intro_command(update, context):
 
-    update.message.reply_text("⭐ Halo kak, salam kenal aku Robo AI!")
+    update.message.reply_text("Halo kak, salam kenal aku Robo AI!")
 
     chat_id = update.message.chat_id
     context.bot.send_photo(chat_id=chat_id, photo="https://www.onfore.com/wp-content/uploads/2017/05/Cute-Robot.jpg")
@@ -43,7 +43,8 @@ def quote_command(update, context):
 
     chosen_quote = list_of_quotes[random.randint(0, len(list_of_quotes)-1)]
 
-    update.message.reply_text(f"{chosen_quote}\n\n/quote /AskRoboAI")
+    update.message.reply_text(f"%s\n\n/quote /AskRoboAI" % chosen_quote)
+    # update.message.reply_text(f"{chosen_quote}\n\n/quote /AskRoboAI")
 
 def chat_command(update, context):
 
