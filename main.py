@@ -74,7 +74,7 @@ def info_command(update, context):
 
     chat_id = update.message.chat_id
 
-    update.message.reply_text("Berikut salah satu infografik tentang NLP kak... \n\n/TanyaRoboAI")
+    update.message.reply_text("Berikut salah satu infografik tentang NLP kak... \n\n/info /TanyaRoboAI")
     context.bot.send_photo(chat_id=chat_id, photo=open(f'{info_dir}/{chosen_info}', 'rb'))
 
 def chat_command(update, context):
@@ -85,7 +85,7 @@ def help_command(update, context):
 
     update.message.reply_text("""
                                 ⭐ Robo AI selalu hadir untuk membantu kakak dimanapun berada. Nah, kakak bisa coba pilih beberapa menu berikut yang sesuai dengan kebutuhan kakak nih: 
-                                \n1. /intro - kenalan dengan Robo AI \n2. /what - apa itu Indonesia AI \n3. /quote - kutipan terbaik tentang AI \n4. /info - cek infografik tentang AI \n5. /chat - ngobrol dengan Robo AI \n6. /TanyaRoboAI - tanya ke Robo AI
+                                \n1. /intro - kenalan dengan Robo AI \n2. /what - apa itu Indonesia AI \n3. /quote - kutipan terbaik tentang AI \n4. /info - cek infografik tentang AI \n5. /chat - ngobrol dengan Robo AI \n6. /TanyaRoboAI - tanya ke Robo AI \n\nDM me @RoboAIBot
                               """)
 
 def handle_message(update, context):
@@ -104,6 +104,7 @@ def main():
     updater = Updater(keys.API_KEY, use_context=True)
     dp = updater.dispatcher
 
+    dp.add_handler(CommandHandler('start', intro_command))
     dp.add_handler(CommandHandler('intro', intro_command))
     dp.add_handler(CommandHandler('what', what_command))
     dp.add_handler(CommandHandler('quote', quote_command))
