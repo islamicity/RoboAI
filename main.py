@@ -67,7 +67,7 @@ def quote_command(update, context):
 
 def info_command(update, context):
 
-    info_dir = './images/infographic/nlp'
+    info_dir = './images/infographic/cv'
     list_of_info = os.listdir(info_dir)
 
     chosen_info = list_of_info[random.randint(0, len(list_of_info)-1)]

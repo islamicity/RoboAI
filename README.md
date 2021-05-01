@@ -5,7 +5,10 @@ AI-Based Chat Bot Powered by @IndonesiaAI
 
 # Future Improvements
 
-1. Explore the documentations in more detail https://python-telegram-bot.readthedocs.io/en/stable/
+1. Explore the documentations in more detail 
+https://python-telegram-bot.readthedocs.io/en/stable/
+https://towardsdatascience.com/bring-your-telegram-chatbot-to-the-next-level-c771ec7d31e4
+https://www.mindk.com/blog/how-to-develop-a-chat-bot/
 
 2. Read more tips how to create very good chatbot
 https://chatbotslife.com/building-a-successful-chatbot-d210bec69773
