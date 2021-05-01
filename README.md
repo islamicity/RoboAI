@@ -1,6 +1,8 @@
 # Robo-AI
 AI-Based Chat Bot Powered by @IndonesiaAI
 
+![](./images/RoboAI.jpg)
+
 # Future Improvements
 
 1. Explore the documentations in more detail https://python-telegram-bot.readthedocs.io/en/stable/
