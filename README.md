@@ -1,7 +1,7 @@
 # Robo-AI
 AI-Based Chat Bot Powered by @IndonesiaAI
 
-![](./images/RoboAI.jpg)
+![](./images/RoboAI.jpg | width=100)
 
 # Future Improvements
 
