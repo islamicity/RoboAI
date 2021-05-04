@@ -11,6 +11,7 @@ https://towardsdatascience.com/bring-your-telegram-chatbot-to-the-next-level-c77
 https://www.mindk.com/blog/how-to-develop-a-chat-bot/
 
 2. Read more tips how to create very good chatbot for e-learning
+https://www.fenews.co.uk/fevoices/22936-introducing-a-chatbot-to-your-lms
 https://chatbotslife.com/building-a-successful-chatbot-d210bec69773
 https://chatbotslife.com/dos-and-donts-of-a-high-grade-chatbot-building-a4385fc3e2b5
 https://chatbotslife.com/using-chatbots-in-e-learning-dacde1d245e5
